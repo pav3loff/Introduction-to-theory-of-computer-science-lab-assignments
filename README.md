@@ -11,9 +11,12 @@ The code is public, free to use and fully functional. Use it on your own risk.
 
 Program reads automata definition from standard input.
 
-Definition is given is such fashion:__
-  -In first line input strings are given and split by "|", ex. a,b,c|b,d,e|f,g,h|t,r,w__
-  -In second line all the possible states are split by ",", ex. s1,s2,s3,s4,s5__
+Definition is given is such fashion:
+
+  -In first line input strings are given and split by "|", ex. a,b,c|b,d,e|f,g,h|t,r,w
+  
+  -In second line all the possible states are split by ",", ex. s1,s2,s3,s4,s5
+  
   -In third line all the possible symbols the automata works with are split by ",", ex. a,b,c,d,e,f,g__
   -in fourth line acceptable states are split by ",", ex. s4, s5__
   -In fifth line the starting state is given, ex. s1__
