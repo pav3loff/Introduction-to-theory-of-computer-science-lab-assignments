@@ -24,9 +24,7 @@ Definition is given is such fashion:
   -In fifth line the starting state is given, ex. s1
   
   -In sixth and all the other lines transition functions are given like following: s1,a->s2
-  
                                                                                    s2,b->s3
-                                                                                   
                                                                                    s3,c->s4
                                                                                    
                                                                                    
@@ -36,8 +34,11 @@ every symbol in given input string, ex:
 
 
 01 s1|s2,s3|s4,s5
+
 02 s3|s2,s4|s3
+
 03 s4|s1|s2,s3,s5
+
 
 States will be printed in alphabetical order.
 
@@ -60,17 +61,28 @@ p5
 s1
 
 s3,a->s2
+
 s3,lab2->p5,s4
+
 s4,$->st6
+
 s4,utr->p5,s3
+
 s1,a->stanje2
+
 s1,pnp->s3
+
 s2,$->st6
+
 s2,a->#
+
 
 Result:
 
 01 s1|st6,s2|#|#
+
 02 s1|s3|p5,s4,st6
+
 03 s1|s3|st6,s2
+
 04 s1|s3|p5,s4,st6|p5,s3|#
