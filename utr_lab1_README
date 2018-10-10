@@ -22,9 +22,7 @@ Definition is given is such fashion:
                                                                                    s3,c->s4
                                                                                    
                                                                                    
-After the automata definition is given, the program will write out which states automata was in for
-
-every symbol in given input string, ex:
+After the automata definition is given, the program will write out which states automata was in for every symbol in given input string, ex:
 
 
 01 s1|s2,s3|s4,s5
